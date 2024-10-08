@@ -1,1 +1,1 @@
-# AIprompts
+# AiWorkshop
