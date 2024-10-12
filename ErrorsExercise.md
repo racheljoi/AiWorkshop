@@ -24,5 +24,4 @@ add constraint fk_user foreign key (user_id) references users (id);
 
 ---
 
-Next, import the users file found here: 
-And finally, import the error logs file found here: 
+Next, import the users file found in this folder. And finally, import the error logs file found in this folder.
