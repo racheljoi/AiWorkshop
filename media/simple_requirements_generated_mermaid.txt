@@ -1,0 +1,21 @@
+graph TD
+    A[Start] --> B[Login Screen]
+    B --> C{Enter Email and Password}
+    C --> |Login Button Clicked| D{Check Credentials}
+    C --> |Forgot Password| E[Password Reset Screen]
+    D --> |Correct| F[Login Successful]
+    D --> |Incorrect| G[Show Error Message]
+    G --> C
+    E --> H[Enter Email]
+    H --> I[Send Reset Email]
+    I --> J[User Resets Password]
+    J --> C
+    F --> K[End]
+
+    subgraph Security
+    L[Ensure Password Safety]
+    end
+
+    subgraph User Feedback
+    M[Display Error/Success Messages]
+    end

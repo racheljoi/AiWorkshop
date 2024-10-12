@@ -1,0 +1,51 @@
+graph TD
+    A[Start] --> B[Display Login Screen]
+    B --> C{User Action}
+    C -->|Enter Credentials| D[Validate Input]
+    C -->|Toggle Password Visibility| E[Show/Hide Password]
+    E --> B
+    C -->|Forgot Password| F[Forgot Password Flow]
+    D -->|Invalid| G[Display Error Message]
+    G --> B
+    D -->|Valid| H[Send Authentication Request]
+    H --> I{Server Response}
+    I -->|Success| J[Redirect to Dashboard]
+    I -->|Failure| K[Display 'Invalid email or password']
+    I -->|Network Error| L[Display 'Unable to reach server']
+    K --> B
+    L --> B
+    J --> M[End]
+
+    F --> N[Display Forgot Password Screen]
+    N --> O[Enter Email]
+    O --> P[Validate Email Format]
+    P -->|Invalid| Q[Display 'Invalid email format']
+    Q --> N
+    P -->|Valid| R[Send Password Reset Email]
+    R --> S{Email Sent Successfully?}
+    S -->|Yes| T[Display 'Password reset email sent']
+    S -->|No| U[Display 'Email not found']
+    T --> V[Return to Login Screen]
+    U --> N
+    V --> B
+
+    subgraph "Login Screen Components"
+        B1[Email Input Field]
+        B2[Password Input Field]
+        B3[Login Button]
+        B4[Password Visibility Toggle]
+        B5[Forgot Password Link]
+    end
+
+    subgraph "Non-Functional Requirements"
+        NF1[Performance: Login within 3 seconds]
+        NF2[Responsive UI across screen sizes]
+        NF3[Accessibility: Voice-over & Keyboard navigation]
+    end
+
+    subgraph "Security Measures"
+        S1[Password Encryption TLS]
+        S2[Rate Limiting for Login Attempts]
+        S3[Secure Password Policy]
+        S4[Session Management]
+    end
