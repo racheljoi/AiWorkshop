@@ -4,7 +4,7 @@
   * [Exercise: Flaux Pas](#exercise-flaux-pas)
   * [Exercise: Dora the Explorer](#exercise-dora-the-explorer)
   * [Exercise: The Matrix Loaded](#exercise-the-matrix-loaded)
-    * [Some heuristics to choose from](#some-heuristics-to-choose-from)
+  * [Some heuristics to choose from](#some-heuristics-to-choose-from)
 <!-- TOC -->
 
 ## Exercise: Prompt Me, Baby, One More Time
