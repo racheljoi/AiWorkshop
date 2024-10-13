@@ -1,0 +1,18 @@
+graph TD
+    A[Start] --> B[Create Mapping]
+    B --> C[Draft v1 created]
+    C --> D[View Draft Mapping]
+    D --> E{User Action?}
+    E -->|Edit| F[Edit Draft]
+    E -->|View Past Versions| G[Show list of Published versions]
+    G --> H[Choose a Published version to view]
+    H --> I{User Action?}
+    I -->|Return to Draft| D
+    F --> M{Publish?}
+    M -->|Yes| N[Mark Draft as current Published version]
+    N --> O[Push to external systems]
+    O --> P[Clone as new Draft]
+    P --> Q[Increment version number]
+    Q --> D
+    M -->|No| F
+    E -->|Done| R[End]
