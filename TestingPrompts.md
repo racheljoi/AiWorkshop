@@ -1,25 +1,38 @@
 Exercise: Prompt Me, Baby, One More Time
 ---
 
-Prompt: I have a simple login screen that just takes username and password. How do I test this?
+Prompt: 
+>I have a simple login screen that just takes username and password. How do I test this?
 
-Next prompt: Focus on the ___ (some heuristic) aspect of testing. How should I think about this and test for it?
-- choose something from [this heuristics book](http://dojo-static.ministryoftesting.com/downloads/60PowerfulHeuristicseBook.pdf) (listed out below)
-- continue to refine and play in this space
-- see if you can get test ideas in a nicer format
-- give it some examples - does that change anything?
-- ask it to check its work before giving you answers
-- ask it to show steps for some tests that you're interested in - are they relevant?
+Next prompt: 
+>Focus on the ___ (some heuristic) aspect of testing. How should I think about this and test for it?
+>- choose something from [this heuristics book](http://dojo-static.ministryoftesting.com/downloads/60PowerfulHeuristicseBook.pdf) (listed out below)
+>- continue to refine and play in this space
+>- see if you can get test ideas in a nicer format
+>- give it some examples - does that change anything?
+>- ask it to check its work before giving you answers
+>- ask it to show steps for some tests that you're interested in - are they relevant?
+
+Exercise: 
+---
+
+Prompt: 
+
+> Analyze and explain the flowchart's important properties.
+What areas of weakness are there?
+What areas of risk are there?
+
 
 Exercise: Dora the Explorer
 ---
 
 Prompt: 
-You are an expert exploratory tester. Create three test charters for a version control system that focus on the risks around saving drafts. The format should follow: Explore <Target> using <Resource> to discover <Information>
+>You are an expert exploratory tester. Create three test charters for a version control system that focus on the risks around saving drafts. The format should follow: Explore <Target> using <Resource> to discover <Information>
 
 For example:
-* Explore user permissions using different users to discover permission issues
-* Explore browser animations using different devices to discover how animations render
+>Explore user permissions using different users to discover permission issues
+
+>Explore browser animations using different devices to discover how animations render
 
 ---
 What if you ask it to focus on a different risk? What if you asked it to use a heuristic?
@@ -27,7 +40,8 @@ What if you ask it to focus on a different risk? What if you asked it to use a h
 Exercise: The Matrix Loaded
 ---
 
-Prompt: Create an e-commerce database for a company selling sports equipment. Track inventory, users, orders, and notification preferences, as well as whatever else we might need.
+Prompt: 
+>Create an e-commerce database for a company selling sports equipment. Track inventory, users, orders, and notification preferences, as well as whatever else we might need.
 
 
 
