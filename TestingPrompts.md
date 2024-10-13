@@ -1,5 +1,14 @@
-Exercise: Prompt Me, Baby, One More Time
----
+
+<!-- TOC -->
+  * [Exercise: Prompt Me, Baby, One More Time](#exercise-prompt-me-baby-one-more-time)
+  * [Exercise: Flaux Pas](#exercise-flaux-pas)
+  * [Exercise: Dora the Explorer](#exercise-dora-the-explorer)
+  * [Exercise: The Matrix Loaded](#exercise-the-matrix-loaded)
+    * [Some heuristics to choose from](#some-heuristics-to-choose-from)
+<!-- TOC -->
+
+## Exercise: Prompt Me, Baby, One More Time
+
 
 Prompt: 
 >I have a simple login screen that just takes username and password. How do I test this?
@@ -13,18 +22,17 @@ Next prompt:
 - ask it to check its work before giving you answers
 - give it steps to follow
 
-Exercise: 
----
+## Exercise: Flaux Pas
+
 
 Prompt: 
 
-> Analyze and explain the flowchart's important properties.
-What areas of weakness are there?
-What areas of risk are there?
+>Analyze and explain the flowchart's important properties.
+>What areas of weakness are there?
+>What areas of risk are there?
 
 
-Exercise: Dora the Explorer
----
+## Exercise: Dora the Explorer
 
 Prompt: 
 >You are an expert exploratory tester. Create three test charters for a version control system that focus on the risks around saving drafts. The format should follow: Explore <Target> using <Resource> to discover <Information>
@@ -37,15 +45,15 @@ Prompt:
 
 What if you ask it to focus on a different risk? What if you asked it to use a heuristic?
 
-Exercise: The Matrix Loaded
----
+## Exercise: The Matrix Loaded
 
 Prompt: 
 >Create an e-commerce database for a company selling sports equipment. Track inventory, users, orders, and notification preferences, as well as whatever else we might need.
 
 
+<details>
 
-### Some heuristics to choose from
+<summary>Click to see some heuristics to choose from</summary>
 
 1. Sequence
 2. Concurrence
@@ -107,3 +115,4 @@ Prompt:
 58. Scalability
 59. Performance
 60. Compatibility
+</details>
