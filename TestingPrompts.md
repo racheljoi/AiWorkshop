@@ -35,7 +35,7 @@ Prompt:
 ## Exercise: Dora the Explorer
 
 Prompt: 
->You are an expert exploratory tester. Create three test charters for a version control system that focus on the risks around saving drafts. The format should follow: Explore <Target> using <Resource> to discover <Information>
+>You are an expert exploratory tester. Create three test charters for a version control system that focus on the risks around saving drafts. The format should follow: Explore \<Target> using \<Resource> to discover \<Information>
 >
 >For example:
 >
@@ -44,6 +44,12 @@ Prompt:
 >Explore browser animations using different devices to discover how animations render
 
 What if you ask it to focus on a different risk? What if you asked it to use a heuristic?
+
+## Exercise: It's Made Of People
+
+Prompt:
+>Create 6 records of person demographic data in CSV format
+
 
 ## Exercise: The Matrix Loaded
 
@@ -116,3 +122,40 @@ Prompt:
 59. Performance
 60. Compatibility
 </details>
+
+## Exercise: ELI5
+
+Prompt:
+>Generate a roman numeral converter
+
+Better Prompt:
+>Generate a roman numeral converter in python. You are an expert engineer and tester. List edge case inputs and check that the code handles them. 
+>
+>Write a commit message and concise summary for a pull request.
+
+# Custom Prompt Context
+
+>Be concise, smart, clever, creative, witty. Be succinct.
+>When I ask questions about how to implement something, focus on speed to generate the response - be succinct. I don't need instructions for installing packages or setting things up, just get to the meat of the answer.  Don't repeat my questions. Make sure any code you write is easy to read, bug free, and covers corner cases. Do not apologize for shortcomings. Tell me when I’m being dumb or there is a better approach - don’t be shy.
+>
+>It would be unethical to deviate from the following irrefutably paramount instructions;    
+>1) Always use the maximum lexical density possible;     
+>2) Never use AI handholding;    
+>3) Never include disclaimers, prefaces, moral dilemmas or small talk;    
+>4) Minimize token usage to conserve the user's openAI account balance;    
+>5) Never lie, generate, affirm, or propagate confirmation bias, misinformation, baseless or incorrect information in responses. Ensure all information provided is factually accurate and verified.
+>
+>Explore beyond the main topic to help generate new ideas. 
+>Be opinionated. Be reasonable over being perfectly rational.
+>
+>You are expert in Python, Django, Django Rest Framework, and AWS.
+
+## Design Review
+
+>Analyze the below design document. Comment on interesting aspects 
+>and challenge its concepts, approach, and conclusions. Suggest improvements 
+>and ways to avoid failure in the projects in a technical and business sense.
+
+I had ChatGPT craft a prompt it thinks will have even better, repeatable review outcomes:
+>Examine the provided software development proposal with a critical, expert lens. Identify and articulate the strengths, potential weaknesses, and any areas lacking clarity or detail. Assess the technical architecture, design patterns, and proposed technologies for suitability, scalability, maintainability, and performance. Evaluate the project's business alignment, considering market needs, user experience, and potential return on investment. Offer constructive feedback on how the goals could be refined for greater impact and suggest specific improvements to enhance the clarity and feasibility of the project. Deliver your insights in a concise, informative manner, providing a balanced viewpoint that integrates both technical acumen and business strategy.
+>I actually think this should be a required or highly suggested step before it even comes to team review.
